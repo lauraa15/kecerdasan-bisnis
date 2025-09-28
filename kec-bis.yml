@@ -1,0 +1,16 @@
+name: kec-bis
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - gensim
+  - statsmodels
+  - seaborn
+  - jupyterlab
+  - scipy
+  - numpy
+  - scikit-learn
+  - pandas
+  - tensorflow-hub
+  - matplotlib
+  - xlrd
