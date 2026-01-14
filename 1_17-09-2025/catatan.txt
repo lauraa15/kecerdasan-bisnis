@@ -1,0 +1,19 @@
+Materi Pertemuan 01
+Download Materi
+Slides dalam bentuk jupyter notebook dapat diunduh di sini.
+
+Catatan Tambahan
+Conda virtual environment itu bisa dibayangkan seperti kotak kerja khusus untuk sebuah proyek.
+
+Di dalam kotak itu, Anda bisa menyimpan versi Python tertentu dan paket-paket/library yang dibutuhkan proyek tersebut.
+Setiap proyek bisa punya kotak sendiri, jadi tidak saling mengganggu.
+Misalnya:
+Proyek A butuh Python 3.8 dan TensorFlow 2.3
+Proyek B butuh Python 3.10 dan TensorFlow 2.10
+Kalau tidak pakai environment, mereka bisa bentrok. Tapi dengan conda environment, masing-masing punya kotaknya sendiri.
+Istilah Kunci
+conda create -n nama_env python=3.9⇒ bikin kotak baru dengan Python 3.9.
+conda activate nama_env⇒ masuk ke dalam kotak.
+conda deactivate⇒ keluar dari kotak.
+Jadi intinya, conda virtual environment adalah cara untuk memisahkan "dapur kerja" tiap proyek supaya versi Python dan library tidak campur aduk.
+
